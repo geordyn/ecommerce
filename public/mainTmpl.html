@@ -1,0 +1,11 @@
+<div class="mainPage">
+<h1>Products Main Page</h1>
+
+<div class="productsCont">
+    <div class="product" ng-repeat="product in products">
+      <img ng-src="{{ product.img }}" width="100px" height="100px">
+      <br/>{{ product.title }} / {{ product.price }}
+     </div>
+</div>
+
+</div>
